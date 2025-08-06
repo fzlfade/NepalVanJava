@@ -1,119 +1,66 @@
-</main>
+<html lang="en">
 
-<footer id="footer" class="footer dark-background">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Footer Agriculture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
 
-    <div class="footer-top">
-        <div class="container">
-            <div class="row gy-4">
-                <div class="col-lg-4 col-md-6 footer-about">
-                    <a href="index.php" class="logo d-flex align-items-center">
-                        <span class="sitename">AgriCulture</span>
-                    </a>
-                    <div class="footer-contact pt-3">
-                        <p>A108 Adam Street</p>
-                        <p>New York, NY 535022</p>
-                        <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                        <p><strong>Email:</strong> <span>info@example.com</span></p>
-                    </div>
-                </div>
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
 
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Terms of service</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Our Services</h4>
-                    <ul>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Product Management</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Graphic Design</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Hic solutasetp</h4>
-                    <ul>
-                        <li><a href="#">Molestiae accusamus iure</a></li>
-                        <li><a href="#">Excepturi dignissimos</a></li>
-                        <li><a href="#">Suscipit distinctio</a></li>
-                        <li><a href="#">Dilecta</a></li>
-                        <li><a href="#">Sit quas consectetur</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>Nobis illum</h4>
-                    <ul>
-                        <li><a href="#">Ipsam</a></li>
-                        <li><a href="#">Laudantium dolorum</a></li>
-                        <li><a href="#">Dinera</a></li>
-                        <li><a href="#">Trodelas</a></li>
-                        <li><a href="#">Flexo</a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="copyright text-center">
+<body class="bg-[#121212] text-[#c7c7c7]">
+    <footer>
         <div
-            class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
-            <div class="d-flex flex-column align-items-center align-items-lg-start">
-                <div>
-                    © Copyright <strong><span>MyWebsite</span></strong>. All Rights Reserved
-                </div>
-                <div class="credits">
-                    <!-- All the links in the footer should remain intact. -->
-                    <!-- You can delete the links only if you purchased the pro version. -->
-                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
-                        href="https://themewagon.com">ThemeWagon</a>
-                </div>
+            class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row md:justify-between md:items-start gap-10 md:gap-0">
+            <div class="md:flex-1">
+                <h2 class="font-playfair text-white text-2xl mb-6">AgriCulture</h2>
+                <address class="not-italic space-y-2 text-base leading-relaxed max-w-xs">
+                    <p>A108 Adam Street</p>
+                    <p>New York, NY 535022</p>
+                    <p><strong class="text-white">Phone:</strong> +1 5589 55488 55</p>
+                    <p><strong class="text-white">Email:</strong> info@example.com</p>
+                </address>
             </div>
-
-            <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-                <a href=""><i class="bi bi-twitter-x"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
-
         </div>
-    </div>
-
-</footer>
-
-<!-- Scroll Top -->
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
-
-<!-- Preloader -->
-<div id="preloader"></div>
-
-<!-- Vendor JS Files -->
-<script src="/public_html/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/public_html/assets/vendor/php-email-form/validate.js"></script>
-<script src="/public_html/assets/vendor/aos/aos.js"></script>
-<script src="/public_html/assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="/public_html/assets/vendor/glightbox/js/glightbox.min.js"></script>
-
-<?php include '../includes/modal-akun.php'; ?>
-
-<!-- Main JS File -->
-<script src="/public_html/assets/js/main.js"></script>
-
+        <div
+            class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row md:justify-between md:items-center text-[#c7c7c7] text-sm">
+            <div class="mb-4 md:mb-0">
+                © Copyright <strong class="text-white">MyWebsite</strong>. All Rights Reserved
+                <br />
+                Designed by
+                <a href="#" class="text-green-600 hover:underline">BootstrapMade</a>
+                Distributed by
+                <a href="#" class="text-green-600 hover:underline">ThemeWagon</a>
+            </div>
+            <div class="flex items-center space-x-3 md:space-x-4">
+                <button aria-label="Back to top" class="bg-green-700 hover:bg-green-600 rounded-md p-3 text-white">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+                <a href="#"
+                    class="bg-[#222222] hover:bg-[#333333] rounded-md p-3 text-green-600 text-xl flex items-center justify-center"
+                    aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#"
+                    class="bg-[#222222] hover:bg-[#333333] rounded-md p-3 text-green-600 text-xl flex items-center justify-center"
+                    aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"
+                    class="bg-[#222222] hover:bg-[#333333] rounded-md p-3 text-green-600 text-xl flex items-center justify-center"
+                    aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#"
+                    class="bg-[#222222] hover:bg-[#333333] rounded-md p-3 text-green-600 text-xl flex items-center justify-center"
+                    aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
