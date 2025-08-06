@@ -39,6 +39,42 @@
 </head>
 
 <body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.php" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="/public_html/assets/img/logo.png" alt="AgriCulture">
+        <!-- <h1 class="sitename">AgriCulture</h1>  -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.php?page=index" class="active">Profil</a></li>
+          <li><a href="index.php?page=spot-wisata">Spot Wisata</a></li>
+          <li><a href="index.php?page=services">Paket Wisata</a></li>
+          <li><a href="index.php?page=fasilitas-pendukung">Fasilitas Pendukung</a></li>
+          <li><a href="index.php?page=homestay">Homestay</a></li>
+          <li><a href="index.php?page=kuliner">Kuliner</a></li>
+          <li><a href="index.php?page=kuliner">Aksesibilitas dan Rute</a></li>
+          <li><a href="index.php?page=kuliner">Wisata Sekitar</a></li>
+          <li><a href="index.php?page=contact">Kontak</a></li>
+          <div>
+            <button type="button" class="btn btn-light rounded-circle shadow-sm border-0" data-bs-toggle="modal"
+              data-bs-target="#userMenuModal">
+              <i class="bi bi-person-circle fs-4 text-success"></i>
+            </button>
+          </div>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+
+
+    </div>
+  </header>
+
   <main class="main">
 
     <!-- Hero Section -->
@@ -494,6 +530,7 @@
         </div>
       </div>
     </section><!-- /Testimonials Section -->
+
   </main>
 
   <footer id="footer" class="footer dark-background">
@@ -605,7 +642,7 @@
   <script src="/public_html/assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="/public_html/assets/vendor/glightbox/js/glightbox.min.js"></script>
 
-  <?php include '../includes/modal-akun.php'; ?>
+  <?php include 'includes/modal-akun.php'; ?>
 
   <!-- Main JS File -->
   <script src="/public_html/assets/js/main.js"></script>
