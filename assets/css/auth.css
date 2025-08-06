@@ -1,0 +1,89 @@
+/* Font dan Reset */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Login */
+h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Marcellus', serif;
+  font-size: 32px;
+  color: #2c3e50;
+}
+
+form {
+  background: white;
+  width: 350px;
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+/* Label & Input */
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #146C43; /* Hijau khas */
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #0f5a38;
+}
+
+p {
+  text-align: center;
+  color: red;
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Login */
+h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Marcellus', serif;
+  font-size: 32px;
+  color: #2c3e50;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="tel"] {
+  width: 100%;
+  gap:10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s ease;
+}
+
+

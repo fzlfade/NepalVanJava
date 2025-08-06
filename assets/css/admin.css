@@ -1,0 +1,136 @@
+/* === Dashboard Admin Custom Styles === */
+
+/* Font & Global */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #116530;
+  font-family: 'Marcellus', serif;
+}
+
+/* Navigation */
+.navmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.navmenu ul li a {
+  color: #2f2f2f;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 5px 0;
+  position: relative;
+}
+
+.navmenu ul li a:hover,
+.navmenu ul li a.active {
+  color: #116530;
+}
+
+.navmenu ul li a.active::after,
+.navmenu ul li a:hover::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #116530;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #fff;
+  color: #116530;
+  padding: 80px 0;
+}
+
+.hero h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Marcellus', serif;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #116530;
+}
+
+/* Footer */
+.footer {
+  background: #116530;
+  color: #aaa;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+/* Responsive Nav Toggle (if needed) */
+.mobile-nav-toggle {
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Container Override */
+.container,
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.admin-btn {
+  display: block;
+  padding: 30px 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  border: 2px solid #e0e0e0;
+  text-decoration: none;
+  color: #116530;
+}
+
+.admin-btn:hover {
+  background-color: #f0f9f5;
+  transform: translateY(-5px);
+  border-color: #116530;
+}
+
+.admin-btn i {
+  font-size: 2.5rem;
+  color: #116530;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.admin-btn h5 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.admin-btn p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+
