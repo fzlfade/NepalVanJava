@@ -38,30 +38,7 @@
 
 <body class="about-page">
 
-  <header id="header" class="header d-flex align-items-center position-relative">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.php" class="logo d-flex align-items-center">
-        <img src="/public_html/assets/img/logo.png" alt="AgriCulture">
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.php?page=index" class="active">Profil</a></li>
-          <li><a href="index.php?page=spot-wisata">Spot Wisata</a></li>
-          <li><a href="index.php?page=services">Paket Wisata</a></li>
-          <li><a href="index.php?page=fasilitas-pendukung">Fasilitas Pendukung</a></li>
-          <li><a href="index.php?page=homestay">Homestay</a></li>
-          <li><a href="index.php?page=kuliner">Kuliner</a></li>
-          <li><a href="index.php?page=kuliner">Aksesibilitas dan Rute</a></li>
-          <li><a href="index.php?page=kuliner">Wisata Sekitar</a></li>
-          <li><a href="index.php?page=contact">Kontak</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
+  <?php include 'includes/header.php'; ?>
 
   <main class="main">
 
@@ -148,10 +125,10 @@
                 }
               }
             </script>
-            <button class="navigation-prev js-custom-prev">
+            <button class="navigation-prev js-custom-prev text-gray-500 hover:text-white transition-colors">
               <i class="bi bi-arrow-left-short"></i>
-            </button>
-            <button class="navigation-next js-custom-next">
+            </button>   
+            <button class="navigation-next js-custom-next text-gray-500 hover:text-white transition-colors">
               <i class="bi bi-arrow-right-short"></i>
             </button>
             <div class="swiper-wrapper">
@@ -231,94 +208,7 @@
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="/public_html/index.php" class="logo d-flex align-items-center">
-              <span class="sitename">AgriCulture</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="/public_html/index.php">Home</a></li>
-              <li><a href="spot-wisata.php">Spot Wisata</a></li>
-              <li><a href="/public_html/services.php">Paket Wisata</a></li>
-              <li><a href="/public_html/fasilitas-pendukung.php">Fasilitas Pendukung</a></li>
-              <li><a href="/public_html/homestay.php">Homestay</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><a href="#">Trekking Guide</a></li>
-              <li><a href="#">Homestay Booking</a></li>
-              <li><a href="#">Transportation</a></li>
-              <li><a href="#">Tour Packages</a></li>
-              <li><a href="#">Local Food</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Contact Info</h4>
-            <ul>
-              <li><a href="tel:+6281234567890">+62 812 3456 7890</a></li>
-              <li><a href="mailto:info@nepalvanjava.com">info@nepalvanjava.com</a></li>
-              <li><a href="#">Desa Butuh, Kecamatan Kajoran</a></li>
-              <li><a href="#">Kabupaten Magelang</a></li>
-              <li><a href="#">Jawa Tengah</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Social Media</h4>
-            <ul>
-              <li><a href="#"><i class="bi bi-instagram"></i> Instagram</a></li>
-              <li><a href="#"><i class="bi bi-facebook"></i> Facebook</a></li>
-              <li><a href="#"><i class="bi bi-youtube"></i> YouTube</a></li>
-              <li><a href="#"><i class="bi bi-tiktok"></i> TikTok</a></li>
-              <li><a href="#"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="copyright text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div>
-            © Copyright <strong><span>Nepal van Java</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
-        </div>
-
-      </div>
-    </div>
-
-  </footer>
+  <?php include 'includes/footer.php'; ?>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

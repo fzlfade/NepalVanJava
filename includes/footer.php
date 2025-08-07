@@ -19,7 +19,7 @@
 </head>
 
 <body class="bg-[#121212] text-[#c7c7c7]">
-    <footer>
+    <footer class="bg-[#121212] text-[#c7c7c7]">
         <div
             class="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row md:justify-between md:items-start gap-10 md:gap-0">
             <div class="md:flex-1">
@@ -43,9 +43,6 @@
                 <a href="#" class="text-green-600 hover:underline">ThemeWagon</a>
             </div>
             <div class="flex items-center space-x-3 md:space-x-4">
-                <button aria-label="Back to top" class="bg-green-700 hover:bg-green-600 rounded-md p-3 text-white">
-                    <i class="fas fa-arrow-up"></i>
-                </button>
                 <a href="#"
                     class="bg-[#222222] hover:bg-[#333333] rounded-md p-3 text-green-600 text-xl flex items-center justify-center"
                     aria-label="Twitter"><i class="fab fa-twitter"></i></a>

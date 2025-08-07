@@ -1184,6 +1184,8 @@ section,
   font-size: 2rem;
 }
 
+
+
 .services-2 .navigation-prev:hover,
 .services-2 .navigation-next:hover {
   background-color: var(--accent-color);

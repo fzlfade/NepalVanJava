@@ -1,0 +1,59 @@
+/* Paket Wisata Styling */
+.service-item {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.service-item img {
+    border-radius: 8px;
+    height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.service-item h4.service-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+}
+
+.service-item ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style: none;
+}
+
+.service-item ul li {
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+    position: relative;
+}
+
+.service-item ul li::before {
+    content: "✔";
+    position: absolute;
+    left: -20px;
+    color: #28a745;
+}
+
+.service-item .btn {
+    margin-top: 10px;
+    font-size: 0.875rem;
+    padding: 6px 14px;
+    border-radius: 6px;
+}

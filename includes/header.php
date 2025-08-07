@@ -327,7 +327,7 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="index.php?page=index" class="active">Profil</a></li>
+                    <li><a href="index.php?page=index">Profil</a></li>
                     <li><a href="index.php?page=spot-wisata">Spot Wisata</a></li>
                     <li><a href="index.php?page=services">Paket Wisata</a></li>
                     <li><a href="index.php?page=fasilitas-pendukung">Fasilitas Pendukung</a></li>
