@@ -39,7 +39,7 @@ if (!isset($_SESSION['username'])) {
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="../assets/css/admin.css" rel="stylesheet">
+  <link href="../assets/css/admin.css?v=1.0" rel="stylesheet">
 </head>
 
 <body>

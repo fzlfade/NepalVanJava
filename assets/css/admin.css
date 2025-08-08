@@ -1,8 +1,8 @@
 :root {
     --sidebar-width: 280px;
     --topbar-height: 60px;
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
+    --primary-color: #56a365;
+    --secondary-color: #34db4d;
 }
 
 body {
@@ -143,4 +143,71 @@ body {
     .sidebar-toggle {
         display: block;
     }
+}
+
+/* Calendar Styles */
+#calendar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fc-header-toolbar {
+    margin-bottom: 1em;
+}
+
+.fc-daygrid-day-number {
+    font-size: 0.8em;
+    padding: 2px;
+    color: #333;
+}
+
+.fc-daygrid-day-frame {
+    min-height: 40px;
+}
+
+.fc-daygrid-day-top {
+    justify-content: center;
+}
+
+.fc-event {
+    cursor: pointer;
+    padding: 1px 3px;
+    border-radius: 2px;
+    margin-bottom: 1px;
+    font-size: 0.75em;
+    border: none;
+}
+
+.fc-daygrid-event {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+/* Event Details */
+#eventDetails {
+    min-height: 500px;
+    max-height: 600px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.event-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.event-item {
+    transition: all 0.2s;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.event-item:hover {
+    background-color: #f1f1f1;
 }
